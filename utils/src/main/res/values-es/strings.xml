@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">utils</string>
+    <string name="photo_contact_title">Foto de perfil</string>
+    <string name="photo_contact_remove">Borrar foto actual</string>
+    <string name="photo_contact_gallery">Desde galería</string>
+    <string name="photo_contact_take">Tomar foto</string>
+    <string name="loading">Cargando…</string>
+</resources>

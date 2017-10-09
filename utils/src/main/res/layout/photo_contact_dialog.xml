@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title_photo_contact_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#317091"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_take_photo_contact_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="@string/photo_contact_take"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.75dp"
+        android:background="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/tv_gallery_photo_contact_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="@string/photo_contact_gallery"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/line_last_photo_contact_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="0.75dp"
+        android:background="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/tv_remove_photo_contact_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:gravity="left"
+        android:padding="5dp"
+        android:text="@string/photo_contact_remove"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/darker_gray"
+        android:visibility="gone" />
+
+</LinearLayout>

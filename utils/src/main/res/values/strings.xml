@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">utils</string>
+    <string name="photo_contact_title">Profile Picture</string>
+    <string name="photo_contact_remove">Delete current picture</string>
+    <string name="photo_contact_gallery">From galery</string>
+    <string name="photo_contact_take">Take picture</string>
+    <string name="loading">Loading…</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CounterView">
+        <attr name="operation" format="enum">
+            <enum name="sum" value="1" />
+            <enum name="substraction" value="2" />
+        </attr>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="operationXOffsetPercentage" format="float"/>
+        <attr name="operationYOffsetPercentage" format="float"/>
+        <attr name="onPressEdgeColor" format="color"/>
+        <attr name="onPressCenterColor" format="color"/>
+    </declare-styleable>
+
+
+
+
+    <declare-styleable name="CircularImageView">
+        <attr name="borderColor" format="color"/>
+        <attr name="borderWidth" format="dimension"/>
+    </declare-styleable>
+
+
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
